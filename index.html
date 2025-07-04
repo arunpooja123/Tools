@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Free online tools for image compression, PDF editing, conversions and more. Easy, fast, and secure.">
+  <meta name="keywords" content="image tools, PDF tools, online utilities, convert image, compress PDF, online editor">
+  <meta name="author" content="YourSiteName">
+  <title>Free Online Tools | YourSiteName</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" />
+  <style>
+    :root {
+      --primary: #007bff;
+      --bg: #f4f7fa;
+      --card-bg: #fff;
+      --text: #333;
+      --radius: 10px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .tool-card {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      transition: transform 0.2s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .tool-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .tool-icon {
+      font-size: 40px;
+      margin-bottom: 15px;
+      color: var(--primary);
+    }
+
+    .tool-card h3 {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+    }
+
+    .tool-card p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    .tool-card a {
+      margin-top: 15px;
+      display: inline-block;
+      padding: 8px 16px;
+      background: var(--primary);
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.3s;
+    }
+
+    .tool-card a:hover {
+      background: #0056b3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+      background: #fff;
+      color: #666;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>YourSiteName Tools</h1>
+    <p>Fast, Free & Easy Online Tools for Images, PDFs and More</p>
+  </header>
+
+  <main class="container">
+    <section class="tools-grid">
+      <!-- Tool 1 -->
+     <a href="/tool/img-compressor.html" class="tool-card-link">
+  <div class="tool-card">
+    <div class="tool-icon">🖼️</div>
+    <h3>Image Compressor</h3>
+    <p>Compress JPEG/PNG images without losing quality.</p>
+    <span class="tool-link">Open Tool</span>
+  </div>
+</a>
+
+
+      <!-- Tool 2 -->
+      <div class="tool-card">
+        <div class="tool-icon">📄</div>
+        <h3>PDF Compressor</h3>
+        <p>Reduce PDF file size quickly and efficiently.</p>
+        <a href="pdf-compressor.html">Open Tool</a>
+      </div>
+
+      <!-- Tool 3 -->
+      <div class="tool-card">
+        <div class="tool-icon">📝</div>
+        <h3>PDF Editor</h3>
+        <p>Edit text, merge, or split PDF files in your browser.</p>
+        <a href="pdf-editor.html">Open Tool</a>
+      </div>
+
+      <!-- Tool 4 -->
+      <div class="tool-card">
+        <div class="tool-icon">🔁</div>
+        <h3>Image Converter</h3>
+        <p>Convert images between JPG, PNG, WebP formats.</p>
+        <a href="image-converter.html">Open Tool</a>
+      </div>
+
+      <!-- Tool 5 -->
+      <div class="tool-card">
+        <div class="tool-icon">🔐</div>
+        <h3>PDF Unlock</h3>
+        <p>Remove passwords from secured PDF files.</p>
+        <a href="pdf-unlock.html">Open Tool</a>
+      </div>
+
+      <!-- Tool 6 -->
+      <div class="tool-card">
+        <div class="tool-icon">📚</div>
+        <h3>PDF to Word</h3>
+        <p>Convert your PDF documents into editable Word files.</p>
+        <a href="pdf-to-word.html">Open Tool</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 YourSiteName. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
